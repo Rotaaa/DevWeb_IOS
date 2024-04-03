@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(130, 21, 238);
+}
+
+input {
+    background-color: rgb(219, 197, 240);
+
+}
+
+textarea {
+    background-color: rgb(219, 197, 240);
+}
+
+h1,
+h2,
+p,
+ul,
+a,
+form {
+    color: white;
+}
+
+li {
+    width: 200px;
+    height: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    display: grid ;
+}
