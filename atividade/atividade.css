@@ -1,0 +1,30 @@
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    color: blue;
+}
+
+.texto {
+    font-size: 16px;
+}
+
+/* Seletor de ID */
+#cabecalho {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Seletor * */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Seletor de elemento elemento */
+ul li {
+    list-style-type: circle;
+}
