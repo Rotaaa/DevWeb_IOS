@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+}
+
+.box {
+    float: left;
+    width: 30%; 
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 10px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 100%; 
+    }
+}
+
