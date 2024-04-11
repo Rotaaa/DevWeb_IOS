@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px; 
+    margin: 20px auto; 
+}
+
+.box {
+    float: left; 
+    width: calc(33.33% - 10px);
+    margin-right: 20px; 
+    box-sizing: border-box; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+.red {
+    background-color: #FF6347; 
+}
+
+.blue {
+    background-color: #4169E1; 
+}
+
+.green {
+    background-color: #32CD32; 
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
